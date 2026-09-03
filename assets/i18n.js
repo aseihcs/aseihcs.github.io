@@ -23,6 +23,7 @@ const I18N = {
     "about.p4": "A few years into working, I got curious about data and wanted to learn more, so I went back to university and studied Data Science at Universiteit Leiden. These days, I still very much enjoy being somewhere between people and technology. I love understanding the problem before jumping into the solution, and I care about building things that actually make people's work a little easier.",
     "about.photoSoon": "Photo coming soon",
     "about.readMore": "Read more",
+    "about.readLess": "Read less",
 
     "experience.heading": "Experience",
 
@@ -145,6 +146,7 @@ const I18N = {
     "about.p4": "Als er één rode draad door dit alles loopt, is het dat ik oprecht nieuwsgierig ben naar het probleem achter de vraag, niet alleen naar het middel om het op te lossen. Daarom hecht ik niet aan een functietitel: data engineer, implementation engineer, product owner, business analist, zolang ik maar dingen kan blijven bouwen en begrijpen waarom ze ertoe doen.",
     "about.photoSoon": "Foto volgt binnenkort",
     "about.readMore": "Lees meer",
+    "about.readLess": "Lees minder",
 
     "experience.heading": "Ervaring",
 

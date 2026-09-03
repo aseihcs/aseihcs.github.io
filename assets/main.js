@@ -76,14 +76,22 @@
   }
 
   function initAboutReadMore() {
-    var btn = document.getElementById("aboutMoreBtn");
+    var moreBtn = document.getElementById("aboutMoreBtn");
+    var lessBtn = document.getElementById("aboutLessBtn");
     var panel = document.getElementById("aboutMore");
-    if (!btn || !panel) return;
+    if (!moreBtn || !panel) return;
 
-    btn.addEventListener("click", function () {
+    moreBtn.addEventListener("click", function () {
       panel.hidden = false;
-      btn.hidden = true;
+      moreBtn.hidden = true;
     });
+
+    if (lessBtn) {
+      lessBtn.addEventListener("click", function () {
+        panel.hidden = true;
+        moreBtn.hidden = false;
+      });
+    }
   }
 
   document.addEventListener("DOMContentLoaded", function () {

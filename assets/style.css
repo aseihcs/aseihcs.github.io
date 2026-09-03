@@ -323,8 +323,10 @@ h1, h2, h3 {
 .btn-primary:hover { background: var(--plum-deep); transform: translateY(-1px); }
 
 .btn-ghost {
+  background: none;
   border: 2px dashed var(--ink);
   color: var(--ink);
+  cursor: pointer;
 }
 .btn-ghost:hover { border-color: var(--plum); color: var(--plum); transform: translateY(-1px); }
 
