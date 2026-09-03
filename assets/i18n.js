@@ -26,7 +26,7 @@ const I18N = {
     "experience.heading": "Experience",
 
     "exp.indsponsors.dates": "Jun 2026 –<br>Present",
-    "exp.indsponsors.role": "Data Engineer",
+    "exp.indsponsors.role": "Data & Product Engineer",
     "exp.indsponsors.orgsub": "· Dutch platform connecting job seekers with IND-recognised sponsors",
     "exp.indsponsors.desc": [
       "Built an automated job for IND update monitoring and database diffing that cut manual work from an hour to about two minutes.",
