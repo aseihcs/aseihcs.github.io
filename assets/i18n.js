@@ -12,7 +12,7 @@ const I18N = {
     "nav.contact": "Contact",
 
     "hero.greeting": "Hi there, hallo! 👋",
-    "hero.role": "Data Engineer | Implementation Engineer | Product Owner · Den Haag, NL",
+    "hero.role": "Data Engineer | Implementation Engineer | Product Owner",
     "hero.lede": "I've worked as a business analyst, product owner, implementation engineer and now data engineer, and the question that follows me everywhere stays the same: is this the problem actually worth solving?",
     "hero.cta": "Let's connect",
 
@@ -131,7 +131,7 @@ const I18N = {
     "nav.contact": "Contact",
 
     "hero.greeting": "Hi there, hallo! 👋",
-    "hero.role": "Data Engineer | Implementation Engineer | Product Owner · Den Haag, NL",
+    "hero.role": "Data Engineer | Implementation Engineer | Product Owner",
     "hero.lede": "Ik heb gewerkt als business analist, product owner, implementation engineer en nu data engineer, en de vraag die me overal volgt blijft hetzelfde: is dit het probleem dat het daadwerkelijk waard is om op te lossen?",
     "hero.cta": "Neem contact op",
 
