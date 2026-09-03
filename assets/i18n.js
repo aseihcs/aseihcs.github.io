@@ -115,7 +115,7 @@ const I18N = {
     "skills.lang.body": "Indonesian (native), English (C1), Dutch (A2 → B1, in progress)",
 
     "contact.heading": "Get in touch",
-    "contact.lede": "I'm looking for a permanent role in data engineering or product, based in Den Haag or remote within the Netherlands. If any of the above sounds like something you're working on too, I'd like to hear from you.",
+    "contact.lede": "I'm looking for a permanent role in data engineering or product based in the Netherlands. If any of the above sounds like something you're working on too, I'd like to hear from you!",
     "contact.email": "Email",
     "contact.photoSoon": "Photo coming soon",
 
