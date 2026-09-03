@@ -12,7 +12,7 @@ const I18N = {
     "nav.contact": "Contact",
 
     "hero.greeting": "Hi there, hallo! 👋",
-    "hero.roleList": ["Data Engineer", "Implementation Engineer", "Product Owner"],
+    "hero.roleList": ["Data Engineer", "Solutions Engineer", "Product Owner"],
     "hero.lede": "I've worked as a business analyst, product owner, implementation engineer and now data engineer, and the question that follows me everywhere stays the same: is this the problem actually worth solving?",
     "hero.cta": "Let's connect",
 
@@ -23,7 +23,6 @@ const I18N = {
     "about.p4": "A few years into working, I got curious about data and wanted to learn more, so I went back to university and studied Data Science at Universiteit Leiden. These days, I still very much enjoy being somewhere between people and technology. I love understanding the problem before jumping into the solution, and I care about building things that actually make people's work a little easier.",
     "about.photoSoon": "Photo coming soon",
     "about.readMore": "Read more",
-    "about.readLess": "Read less",
 
     "experience.heading": "Experience",
 
@@ -135,7 +134,7 @@ const I18N = {
     "nav.contact": "Contact",
 
     "hero.greeting": "Hi there, hallo! 👋",
-    "hero.roleList": ["Data Engineer", "Implementation Engineer", "Product Owner"],
+    "hero.roleList": ["Data Engineer", "Solutions Engineer", "Product Owner"],
     "hero.lede": "Ik heb gewerkt als business analist, product owner, implementation engineer en nu data engineer, en de vraag die me overal volgt blijft hetzelfde: is dit het probleem dat het daadwerkelijk waard is om op te lossen?",
     "hero.cta": "Neem contact op",
 
@@ -146,7 +145,6 @@ const I18N = {
     "about.p4": "Als er één rode draad door dit alles loopt, is het dat ik oprecht nieuwsgierig ben naar het probleem achter de vraag, niet alleen naar het middel om het op te lossen. Daarom hecht ik niet aan een functietitel: data engineer, implementation engineer, product owner, business analist, zolang ik maar dingen kan blijven bouwen en begrijpen waarom ze ertoe doen.",
     "about.photoSoon": "Foto volgt binnenkort",
     "about.readMore": "Lees meer",
-    "about.readLess": "Lees minder",
 
     "experience.heading": "Ervaring",
 
