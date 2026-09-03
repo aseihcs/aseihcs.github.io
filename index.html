@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chiesa Serena | Data Engineer</title>
+<meta name="description" content="Chiesa Serena, Data Engineer building automated pipelines, with a product owner's sense of which problems matter.">
+
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Karla:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="logotype">CS</a>
+
+    <nav class="site-nav" aria-label="Primary">
+      <a href="#about" data-i18n="nav.about">About</a>
+      <a href="#experience" data-i18n="nav.experience">Experience</a>
+      <a href="#education" data-i18n="nav.education">Education</a>
+      <a href="#projects" data-i18n="nav.projects">Projects</a>
+      <a href="#skills" data-i18n="nav.skills">Skills</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+
+    <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+      <span class="lang-option is-active" data-lang-btn="en">EN</span>
+      <span class="lang-sep">/</span>
+      <span class="lang-option" data-lang-btn="nl">NL</span>
+    </button>
+
+    <button class="nav-burger" id="navBurger" aria-expanded="false" aria-controls="mobileNav" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#about" data-i18n="nav.about">About</a>
+    <a href="#experience" data-i18n="nav.experience">Experience</a>
+    <a href="#education" data-i18n="nav.education">Education</a>
+    <a href="#projects" data-i18n="nav.projects">Projects</a>
+    <a href="#skills" data-i18n="nav.skills">Skills</a>
+    <a href="#contact" data-i18n="nav.contact">Contact</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero wrap">
+    <div class="hero-grid">
+      <div class="hero-photo-col">
+        <figure class="hero-photo">
+          <img src="assets/img/serena.jpg" alt="Portrait of Chiesa Serena" width="833" height="833" loading="eager">
+        </figure>
+      </div>
+
+      <div class="hero-text-col">
+        <p class="hero-greeting" data-i18n="hero.greeting">Hi there, hallo! 👋</p>
+        <h1 class="hero-name">Chiesa Serena</h1>
+        <p class="hero-role" data-i18n="hero.role">Data Engineer · Den Haag, NL</p>
+        <p class="hero-lede" data-i18n="hero.lede">
+          I've worked as a business analyst, product owner, implementation engineer and now data
+          engineer, and the question that follows me everywhere stays the same: is this the problem
+          actually worth solving?
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary" data-i18n="hero.cta">Let's connect</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about wrap">
+    <div class="section-head">
+      <span class="section-number" aria-hidden="true">📖</span>
+      <h2 class="section-title" data-i18n="about.heading">About</h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <p data-i18n="about.p1">
+          I started out studying Computer Science in Indonesia, more curious about how systems worked
+          than set on becoming any one kind of engineer. That curiosity is what took me sideways into
+          product and business analysis instead of straight into a dev team.
+        </p>
+        <p data-i18n="about.p2">
+          Over the years that followed I moved between roles that all lived in the same spot: between
+          the people who needed something solved and the people who could build it. I led product
+          delivery for a learning platform used by thousands of students, rebuilt clinic operations
+          around a single source of truth, and helped clients wire up chatbots as an implementation
+          engineer. I was always doing a bit of coding along the way, never quite letting it go.
+        </p>
+        <p data-i18n="about.p3">
+          A few years in, I started missing being a student. I was hungry to learn something new and
+          go deeper on the technical side, so I packed up and went back to school for an MSc in Data
+          Science at Universiteit Leiden.
+        </p>
+        <p data-i18n="about.p4">
+          If there is one thread that runs through all of it, it is that I am genuinely curious about
+          the problem underneath the request, not just the tool used to solve it. That is why I am not
+          precious about the job title: data engineer, implementation engineer, product owner, business
+          analyst, whichever one lets me keep building things and understanding why they matter.
+        </p>
+      </div>
+      <div class="about-photo-slot" aria-hidden="true">
+        <span data-i18n="about.photoSoon">Photo coming soon</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section experience wrap">
+    <div class="section-head">
+      <span class="section-number" aria-hidden="true">💼</span>
+      <h2 class="section-title" data-i18n="experience.heading">Experience</h2>
+    </div>
+
+    <ol class="timeline">
+
+      <li class="timeline-item">
+        <div class="timeline-when">
+          <span class="timeline-dates" data-i18n="exp.indsponsors.dates">Jun 2026 –<br>Present</span>
+        </div>
+        <div class="timeline-body">
+          <h3 class="timeline-role" data-i18n="exp.indsponsors.role">Data Engineer</h3>
+          <p class="timeline-org"><img class="org-logo" src="assets/img/logos/indsponsors.png" alt="" loading="lazy"><a href="https://indsponsors.nl" target="_blank" rel="noopener" class="org-link">indsponsors.nl</a> <span class="timeline-org-sub" data-i18n="exp.indsponsors.orgsub">· Dutch platform connecting job seekers with IND-recognised sponsors</span></p>
+          <ul class="timeline-list" data-i18n-list="exp.indsponsors.desc">
+            <li>Built an automated job for IND update monitoring and database diffing that cut manual work from an hour to about two minutes.</li>
+            <li>Built an automated verification workflow that reduced manual review from 100% of company records to 10–20%.</li>
+            <li>Currently integrating extraction, enrichment, verification and database updates into a single automated pipeline.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="timeline-item">
+        <div class="timeline-when">
+          <span class="timeline-dates" data-i18n="exp.thesis.dates">Sep 2024 –<br>Jun 2025</span>
+        </div>
+        <div class="timeline-body">
+          <h3 class="timeline-role" data-i18n="exp.thesis.role">Data Science Intern (Thesis)</h3>
+          <p class="timeline-org"><img class="org-logo" src="assets/img/logos/naturalis.png" alt="" loading="lazy"><a href="https://www.naturalis.nl/en" target="_blank" rel="noopener" class="org-link">Naturalis Biodiversity Center</a> <span class="timeline-org-sub" data-i18n="exp.thesis.orgsub">· the Netherlands</span></p>
+          <ul class="timeline-list" data-i18n-list="exp.thesis.desc">
+            <li>Built an end-to-end deep learning pipeline with automated preprocessing and quality checks to classify morphologically similar Kirganelia species from 12,000+ digitised herbarium images.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="timeline-item">
+        <div class="timeline-when">
+          <span class="timeline-dates" data-i18n="exp.klinikpintar.dates">Apr 2022 –<br>Oct 2022</span>
+        </div>
+        <div class="timeline-body">
+          <h3 class="timeline-role" data-i18n="exp.klinikpintar.role">Product Owner</h3>
+          <p class="timeline-org"><img class="org-logo" src="assets/img/logos/klinikpintar.png" alt="" loading="lazy"><a href="https://klinikpintar.id" target="_blank" rel="noopener" class="org-link">Klinik Pintar</a> <span class="timeline-org-sub" data-i18n="exp.klinikpintar.orgsub">· Indonesian health-tech, clinic &amp; healthcare operations</span></p>
+          <ul class="timeline-list" data-i18n-list="exp.klinikpintar.desc">
+            <li>Built an integrated cashier module across 15 in-house clinics and cut manual transaction entry to zero by linking payments directly to medical and pharmacy records.</li>
+            <li>Built a financial reporting module that pulled revenue, expense and commission data into one real-time dashboard and replaced manual spreadsheet reconciliation.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="timeline-item">
+        <div class="timeline-when">
+          <span class="timeline-dates" data-i18n="exp.dolphins.dates">Aug 2020 –<br>Jan 2022</span>
+        </div>
+        <div class="timeline-body">
+          <h3 class="timeline-role" data-i18n="exp.dolphins.role">Technical Consultant (Implementation Engineer / FDE)</h3>
+          <p class="timeline-org"><img class="org-logo" src="assets/img/logos/3dolphins.png" alt="" loading="lazy"><a href="https://3dolphins.ai" target="_blank" rel="noopener" class="org-link">3dolphins.ai</a> <span class="timeline-org-sub" data-i18n="exp.dolphins.orgsub">· Indonesian AI company, chatbot &amp; omnichannel</span></p>
+          <ul class="timeline-list" data-i18n-list="exp.dolphins.desc">
+            <li>Built custom dialog flows and FAQ logic per client using 3Dolphins Process Flow and backend scripting.</li>
+            <li>Built a Python-based recommendation engine that analysed conversation history to deliver personalised product recommendations during chat sessions.</li>
+            <li>Investigated recurring chatbot failures and integration issues and implemented fixes that reduced repeat escalations.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="timeline-item">
+        <div class="timeline-when">
+          <span class="timeline-dates" data-i18n="exp.haruka.dates">Jan 2017 –<br>Oct 2019</span>
+        </div>
+        <div class="timeline-body">
+          <h3 class="timeline-role" data-i18n="exp.haruka.role">Product Owner &amp; IT Business Analyst</h3>
+          <p class="timeline-org"><img class="org-logo" src="assets/img/logos/harukaedu.png" alt="" loading="lazy"><a href="https://pintar.co" target="_blank" rel="noopener" class="org-link">HarukaEdu / PINTAR</a> <span class="timeline-org-sub" data-i18n="exp.haruka.orgsub">· Indonesian ed-tech, learning management systems</span></p>
+          <ul class="timeline-list" data-i18n-list="exp.haruka.desc">
+            <li>Progressed from Business Analyst to Product Owner, leading product delivery for the Learning Management and University Management System with 12 developers, 3 QAs and 2 designers.</li>
+            <li>Reduced manual work for Finance and Operations teams by roughly 70% in payment reconciliation and installment tracking through automated payment processing and balance calculations.</li>
+            <li>Established a single source of truth for attendance, participation and grading logic across LMS and UMS, resulting in zero reporting discrepancies and related complaints.</li>
+            <li>Led critical incident triage and resolution with the development team and deployed fixes within a maximum of 1 day.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="timeline-item">
+        <div class="timeline-when">
+          <span class="timeline-dates" data-i18n="exp.cimbniaga.dates">Oct 2016 –<br>Dec 2016</span>
+        </div>
+        <div class="timeline-body">
+          <h3 class="timeline-role" data-i18n="exp.cimbniaga.role">System Analyst</h3>
+          <p class="timeline-org"><img class="org-logo" src="assets/img/logos/cimbniaga.png" alt="" loading="lazy"><a href="https://www.cimbniaga.co.id/id/personal/homepage" target="_blank" rel="noopener" class="org-link">CIMB Niaga</a> <span class="timeline-org-sub" data-i18n="exp.cimbniaga.orgsub">· Indonesian banking institution offering retail, commercial and investment banking services</span></p>
+          <ul class="timeline-list" data-i18n-list="exp.cimbniaga.desc">
+            <li>Analyzed admission and student information systems, gathered staff feedback, mapped feature flows and designed test cases, and presented recommendations to the Head of IT.</li>
+          </ul>
+        </div>
+      </li>
+
+    </ol>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section education wrap">
+    <div class="section-head">
+      <span class="section-number" aria-hidden="true">🎓</span>
+      <h2 class="section-title" data-i18n="education.heading">Education</h2>
+    </div>
+
+    <div class="education-list">
+
+      <div class="education-item">
+        <img class="edu-logo" src="assets/img/logos/leiden.png" alt="" loading="lazy">
+        <div>
+          <h3 class="edu-degree" data-i18n="edu.leiden.degree">MSc Computer Science: Data Science</h3>
+          <p class="edu-institution">Universiteit Leiden <span class="timeline-org-sub" data-i18n="edu.leiden.orgsub">· the Netherlands</span></p>
+          <span class="edu-dates" data-i18n="edu.leiden.dates">Sep 2023 – Aug 2025</span>
+          <p class="edu-detail" data-i18n="edu.leiden.detail">GPA: 7.98 · Thesis: Species Classification Using Deep Learning on Kirganelia Herbarium Images</p>
+        </div>
+      </div>
+
+      <div class="education-item">
+        <img class="edu-logo" src="assets/img/logos/ui.png" alt="" loading="lazy">
+        <div>
+          <h3 class="edu-degree" data-i18n="edu.ui.degree">Bachelor of Computer Science</h3>
+          <p class="edu-institution">Universitas Indonesia <span class="timeline-org-sub" data-i18n="edu.ui.orgsub">· Indonesia</span></p>
+          <span class="edu-dates" data-i18n="edu.ui.dates">Sep 2012 – Aug 2016</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section projects wrap">
+    <div class="section-head">
+      <span class="section-number" aria-hidden="true">🛠️</span>
+      <h2 class="section-title" data-i18n="work.heading">Projects</h2>
+    </div>
+    <p class="section-intro" data-i18n="work.intro">
+      Three things I'm building or have built. Write-ups are on the way, but here's what each one is for now.
+    </p>
+
+    <div class="project-grid">
+
+      <article class="project-card">
+        <div class="project-card-top">
+          <span class="project-tag" data-i18n="proj.indsponsors.tag">Live product</span>
+          <span class="project-status" data-i18n="proj.status.soon">Case study coming soon</span>
+        </div>
+        <h3 class="project-title">indsponsors.nl</h3>
+        <p class="project-desc" data-i18n="proj.indsponsors.desc">
+          An automated pipeline that keeps a database of IND-recognised visa sponsors accurate, from
+          monitoring the official register to verifying and updating company records with minimal manual review.
+        </p>
+        <a href="https://indsponsors.nl" target="_blank" rel="noopener" class="project-link" data-i18n="proj.visit">Visit site ↗</a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-card-top">
+          <span class="project-tag" data-i18n="proj.thesis.tag">MSc Thesis</span>
+          <span class="project-status" data-i18n="proj.status.soon">Case study coming soon</span>
+        </div>
+        <h3 class="project-title" data-i18n="proj.thesis.title">Species Classification from Herbarium Images</h3>
+        <p class="project-desc" data-i18n="proj.thesis.desc">
+          A deep learning pipeline built with Naturalis Biodiversity Center to classify morphologically
+          similar Kirganelia species from over 12,000 digitised herbarium specimens.
+        </p>
+      </article>
+
+      <article class="project-card">
+        <div class="project-card-top">
+          <span class="project-tag" data-i18n="proj.dsip.tag">Final project</span>
+          <span class="project-status" data-i18n="proj.status.soon">Case study coming soon</span>
+        </div>
+        <h3 class="project-title" data-i18n="proj.dsip.title">DSIP Final Project</h3>
+        <p class="project-desc" data-i18n="proj.dsip.desc">
+          Details on the way.
+        </p>
+      </article>
+
+    </div>
+
+    <div class="section-footer-action">
+      <a href="projects.html" class="btn btn-ghost" data-i18n="proj.seeall">See all projects</a>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section skills wrap">
+    <div class="section-head">
+      <span class="section-number" aria-hidden="true">🧠</span>
+      <h2 class="section-title" data-i18n="skills.heading">Skills</h2>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skills-group">
+        <h3 data-i18n="skills.data.title">Data &amp; Analytics</h3>
+        <p>Python, SQL, R, ETL/ELT pipelines, dbt, BigQuery, Databricks, Google Analytics, Google Tag Manager</p>
+      </div>
+      <div class="skills-group">
+        <h3 data-i18n="skills.aiml.title">AI &amp; ML</h3>
+        <p>PyTorch, TensorFlow, computer vision, recommendation systems, HuggingFace</p>
+      </div>
+      <div class="skills-group">
+        <h3 data-i18n="skills.dev.title">Backend &amp; Frontend</h3>
+        <p>Java, C/C++, JavaScript, React, RESTful APIs, Flask</p>
+      </div>
+      <div class="skills-group">
+        <h3 data-i18n="skills.infra.title">Deployment &amp; Infra</h3>
+        <p>Docker, Git/GitHub, Bash, Linux, CI/CD</p>
+      </div>
+      <div class="skills-group">
+        <h3 data-i18n="skills.product.title">Product &amp; Consulting</h3>
+        <p data-i18n="skills.product.body">Roadmapping, stakeholder &amp; customer communication, cross-functional leadership, Agile/Scrum, JIRA, user research, UAT</p>
+      </div>
+      <div class="skills-group">
+        <h3 data-i18n="skills.lang.title">Languages</h3>
+        <p data-i18n="skills.lang.body">Indonesian (native), English (C1), Dutch (A2 → B1, in progress)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact wrap">
+    <div class="section-head">
+      <span class="section-number" aria-hidden="true">✉️</span>
+      <h2 class="section-title" data-i18n="contact.heading">Get in touch</h2>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-main">
+        <p class="contact-lede" data-i18n="contact.lede">
+          I'm looking for a permanent role in data engineering or product, based in Den Haag or remote within
+          the Netherlands. If any of the above sounds like something you're working on too, I'd like to hear from you.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:chiesaserena9.4@gmail.com" class="contact-link">
+            <span class="contact-link-label" data-i18n="contact.email">Email</span>
+            <span class="contact-link-value">chiesaserena9.4@gmail.com</span>
+          </a>
+          <a href="https://linkedin.com/in/aseihcs" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-link-label">LinkedIn</span>
+            <span class="contact-link-value">linkedin.com/in/aseihcs</span>
+          </a>
+          <a href="https://github.com/aseihcs" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-link-label">GitHub</span>
+            <span class="contact-link-value">github.com/aseihcs</span>
+          </a>
+        </div>
+      </div>
+      <div class="about-photo-slot contact-photo-slot" aria-hidden="true">
+        <span data-i18n="contact.photoSoon">Photo coming soon</span>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer wrap">
+  <p data-i18n="footer.text">Designed &amp; built by Chiesa, in Den Haag.</p>
+  <p class="footer-year">© <span id="year"></span></p>
+</footer>
+
+<script src="assets/i18n.js"></script>
+<script src="assets/main.js"></script>
+</body>
+</html>

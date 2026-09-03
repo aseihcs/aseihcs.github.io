@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects | Chiesa Serena</title>
+<meta name="description" content="All of Chiesa Serena's projects in one place.">
+
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Karla:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="index.html#top" class="logotype">CS</a>
+
+    <nav class="site-nav" aria-label="Primary">
+      <a href="index.html#about" data-i18n="nav.about">About</a>
+      <a href="index.html#experience" data-i18n="nav.experience">Experience</a>
+      <a href="index.html#projects" data-i18n="nav.projects">Projects</a>
+      <a href="index.html#skills" data-i18n="nav.skills">Skills</a>
+      <a href="index.html#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+
+    <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+      <span class="lang-option is-active" data-lang-btn="en">EN</span>
+      <span class="lang-sep">/</span>
+      <span class="lang-option" data-lang-btn="nl">NL</span>
+    </button>
+
+    <button class="nav-burger" id="navBurger" aria-expanded="false" aria-controls="mobileNav" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div class="mobile-nav" id="mobileNav">
+    <a href="index.html#about" data-i18n="nav.about">About</a>
+    <a href="index.html#experience" data-i18n="nav.experience">Experience</a>
+    <a href="index.html#projects" data-i18n="nav.projects">Projects</a>
+    <a href="index.html#skills" data-i18n="nav.skills">Skills</a>
+    <a href="index.html#contact" data-i18n="nav.contact">Contact</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- PAGE INTRO -->
+  <section class="page-intro wrap">
+    <h1 class="section-title" data-i18n="projects.page.title">All projects</h1>
+    <p class="section-intro" data-i18n="projects.page.intro">
+      Everything I'm building or have built, in one place. More is on the way, this list will keep growing.
+    </p>
+  </section>
+
+  <!-- FULL PROJECT LIST -->
+  <section class="section projects-full wrap">
+    <div class="project-list">
+
+      <article class="project-row">
+        <div class="project-visual" aria-hidden="true"><span class="project-visual-icon">🧭</span></div>
+        <div class="project-content">
+          <p class="project-eyebrow">
+            <span data-i18n="proj.indsponsors.tag">Live product</span>
+            <span class="dot">·</span>
+            <span data-i18n="proj.status.soon">Case study coming soon</span>
+          </p>
+          <h3 class="project-row-title">indsponsors.nl</h3>
+          <p class="project-row-desc" data-i18n="proj.indsponsors.desc">
+            An automated pipeline that keeps a database of IND-recognised visa sponsors accurate, from
+            monitoring the official register to verifying and updating company records with minimal manual review.
+          </p>
+          <a href="https://indsponsors.nl" target="_blank" rel="noopener" class="project-link" data-i18n="proj.visit">Visit site ↗</a>
+        </div>
+      </article>
+
+      <article class="project-row">
+        <div class="project-visual" aria-hidden="true"><span class="project-visual-icon">🌿</span></div>
+        <div class="project-content">
+          <p class="project-eyebrow">
+            <span data-i18n="proj.thesis.tag">MSc Thesis</span>
+            <span class="dot">·</span>
+            <span data-i18n="proj.status.soon">Case study coming soon</span>
+          </p>
+          <h3 class="project-row-title" data-i18n="proj.thesis.title">Species Classification from Herbarium Images</h3>
+          <p class="project-row-desc" data-i18n="proj.thesis.desc">
+            A deep learning pipeline built with Naturalis Biodiversity Center to classify morphologically
+            similar Kirganelia species from over 12,000 digitised herbarium specimens.
+          </p>
+        </div>
+      </article>
+
+      <article class="project-row">
+        <div class="project-visual" aria-hidden="true"><span class="project-visual-icon">🧩</span></div>
+        <div class="project-content">
+          <p class="project-eyebrow">
+            <span data-i18n="proj.dsip.tag">Final project</span>
+            <span class="dot">·</span>
+            <span data-i18n="proj.status.soon">Case study coming soon</span>
+          </p>
+          <h3 class="project-row-title" data-i18n="proj.dsip.title">DSIP Final Project</h3>
+          <p class="project-row-desc" data-i18n="proj.dsip.desc">
+            Details on the way.
+          </p>
+        </div>
+      </article>
+
+    </div>
+
+    <a href="index.html#top" class="back-link" data-i18n="projects.back">← Back to home</a>
+  </section>
+
+</main>
+
+<footer class="site-footer wrap">
+  <p data-i18n="footer.text">Designed &amp; built by Chiesa, in Den Haag.</p>
+  <p class="footer-year">© <span id="year"></span></p>
+</footer>
+
+<script src="assets/i18n.js"></script>
+<script src="assets/main.js"></script>
+</body>
+</html>
