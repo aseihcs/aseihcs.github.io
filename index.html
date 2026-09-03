@@ -63,7 +63,11 @@
 
       <p class="hero-greeting" data-i18n="hero.greeting">Hi there, hallo! 👋</p>
       <h1 class="hero-name">Chiesa Serena</h1>
-      <p class="hero-role" data-i18n="hero.role">Data Engineer · Den Haag, NL</p>
+      <ul class="hero-role-list" data-i18n-list="hero.roleList">
+        <li>Data Engineer</li>
+        <li>Implementation Engineer</li>
+        <li>Product Owner</li>
+      </ul>
       <p class="hero-lede" data-i18n="hero.lede">
         I've worked as a business analyst, product owner, implementation engineer and now data
         engineer, and the question that follows me everywhere stays the same: is this the problem
@@ -95,18 +99,21 @@
           I liked getting stuck on a problem and working towards the right answer, but what really mattered to me was understanding why it was right.
           I think that stayed with me. Getting the right answer is important, but understanding why it is the right one is what helps you know you are solving the right problem.
         </p>
-        <p data-i18n="about.p3">
-          I started with Computer Science because I wanted to understand how things worked
-          (and maybe because I watched too many crime series where there was always that one guy coding in the background).
-          Then I got curious about product, business and software, and somehow ended up trying all of them.
-          I love talking to people about what they need, figuring out what is actually going wrong and building something that genuinely helps.
-          Sometimes that means writing code. Sometimes it means fixing a process. Sometimes I ask one question and accidentally find five more.
-        </p>
-        <p data-i18n="about.p4">
-          A few years into working, I got curious about data and wanted to learn more, so I went back to university and studied Data Science at Universiteit Leiden.
-          These days, I still very much enjoy being somewhere between people and technology.
-          I love understanding the problem before jumping into the solution, and I care about building things that actually make people's work a little easier.
-        </p>
+        <button type="button" class="about-more-btn" id="aboutMoreBtn" aria-expanded="false" aria-controls="aboutMore">Read more</button>
+        <div class="about-more" id="aboutMore" hidden>
+          <p data-i18n="about.p3">
+            I started with Computer Science because I wanted to understand how things worked
+            (and maybe because I watched too many crime series where there was always that one guy coding in the background).
+            Then I got curious about product, business and software, and somehow ended up trying all of them.
+            I love talking to people about what they need, figuring out what is actually going wrong and building something that genuinely helps.
+            Sometimes that means writing code. Sometimes it means fixing a process. Sometimes I ask one question and accidentally find five more.
+          </p>
+          <p data-i18n="about.p4">
+            A few years into working, I got curious about data and wanted to learn more, so I went back to university and studied Data Science at Universiteit Leiden.
+            These days, I still very much enjoy being somewhere between people and technology.
+            I love understanding the problem before jumping into the solution, and I care about building things that actually make people's work a little easier.
+          </p>
+        </div>
       </div>
     </div>
   </section>
@@ -253,11 +260,11 @@
       <li class="timeline-item">
         <div class="timeline-when">
           <span class="timeline-dates" data-i18n="exp.cimbniaga.dates">Oct 2016 –<br>Dec 2016</span>
-          <img class="timeline-logo" src="assets/img/logos/cimb.svg" alt="CIMB Niaga logo" loading="lazy">
+          <img class="timeline-logo" src="assets/img/logos/ui.svg" alt="University of Indonesia logo" loading="lazy">
         </div>
         <div class="timeline-body">
           <h3 class="timeline-role" data-i18n="exp.cimbniaga.role">System Analyst</h3>
-          <p class="timeline-org"><a href="https://www.cimbniaga.co.id/id/personal/homepage" target="_blank" rel="noopener" class="org-link">CIMB Niaga</a> <span class="timeline-org-sub" data-i18n="exp.cimbniaga.orgsub">· Indonesian banking institution offering retail, commercial and investment banking services</span></p>
+          <p class="timeline-org"><a href="https://cs.ui.ac.id/" target="_blank" rel="noopener" class="org-link">University of Indonesia</a> <span class="timeline-org-sub" data-i18n="exp.cimbniaga.orgsub">· Indonesia's leading public research university</span></p>
           <ul class="timeline-list" data-i18n-list="exp.cimbniaga.desc">
             <li>Analyzed admission and student information systems, gathered staff feedback, mapped feature flows and designed test cases, and presented recommendations to the Head of IT.</li>
           </ul>
@@ -283,6 +290,7 @@
           <p class="edu-institution">Universiteit Leiden <span class="timeline-org-sub" data-i18n="edu.leiden.orgsub">· the Netherlands</span></p>
           <span class="edu-dates" data-i18n="edu.leiden.dates">Sep 2023 – Aug 2025</span>
           <p class="edu-detail" data-i18n="edu.leiden.detail">GPA: 7.98 · Thesis: Species Classification Using Deep Learning on Kirganelia Herbarium Images</p>
+          <p class="edu-detail" data-i18n="edu.leiden.ta">Teaching Assistant for Advances in Data Mining and Introduction to Deep Learning.</p>
         </div>
       </div>
 
@@ -292,6 +300,7 @@
           <h3 class="edu-degree" data-i18n="edu.ui.degree">Bachelor of Computer Science</h3>
           <p class="edu-institution">Universitas Indonesia <span class="timeline-org-sub" data-i18n="edu.ui.orgsub">· Indonesia</span></p>
           <span class="edu-dates" data-i18n="edu.ui.dates">Sep 2012 – Aug 2016</span>
+          <p class="edu-detail" data-i18n="edu.ui.ta">Teaching Assistant for Human-Computer Interaction.</p>
         </div>
       </div>
 

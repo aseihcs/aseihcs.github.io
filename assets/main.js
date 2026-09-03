@@ -2,6 +2,13 @@
   "use strict";
 
   var STORAGE_KEY = "cs-portfolio-lang";
+  var aboutExpanded = false;
+
+  function updateAboutMoreButton(dict) {
+    var btn = document.getElementById("aboutMoreBtn");
+    if (!btn) return;
+    btn.textContent = aboutExpanded ? dict["about.readLess"] : dict["about.readMore"];
+  }
 
   function applyLang(lang) {
     var dict = I18N[lang] || I18N.en;
@@ -26,6 +33,8 @@
     document.querySelectorAll("[data-lang-btn]").forEach(function (btn) {
       btn.classList.toggle("is-active", btn.getAttribute("data-lang-btn") === lang);
     });
+
+    updateAboutMoreButton(dict);
 
     try { localStorage.setItem(STORAGE_KEY, lang); } catch (e) { /* ignore */ }
   }
@@ -75,9 +84,25 @@
     if (el) el.textContent = new Date().getFullYear();
   }
 
+  function initAboutReadMore() {
+    var btn = document.getElementById("aboutMoreBtn");
+    var panel = document.getElementById("aboutMore");
+    if (!btn || !panel) return;
+
+    btn.addEventListener("click", function () {
+      aboutExpanded = !aboutExpanded;
+      panel.hidden = !aboutExpanded;
+      btn.setAttribute("aria-expanded", aboutExpanded ? "true" : "false");
+
+      var lang = document.documentElement.getAttribute("data-lang") || "en";
+      updateAboutMoreButton(I18N[lang] || I18N.en);
+    });
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     initLangToggle();
     initMobileNav();
     initYear();
+    initAboutReadMore();
   });
 })();

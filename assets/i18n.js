@@ -12,7 +12,7 @@ const I18N = {
     "nav.contact": "Contact",
 
     "hero.greeting": "Hi there, hallo! 👋",
-    "hero.role": "Data Engineer | Implementation Engineer | Product Owner",
+    "hero.roleList": ["Data Engineer", "Implementation Engineer", "Product Owner"],
     "hero.lede": "I've worked as a business analyst, product owner, implementation engineer and now data engineer, and the question that follows me everywhere stays the same: is this the problem actually worth solving?",
     "hero.cta": "Let's connect",
 
@@ -22,6 +22,8 @@ const I18N = {
     "about.p3": "I started with Computer Science because I wanted to understand how things worked (and maybe because I watched too many crime series where there was always that one guy coding in the background). Then I got curious about product, business and software, and somehow ended up trying all of them. I love talking to people about what they need, figuring out what is actually going wrong and building something that genuinely helps. Sometimes that means writing code. Sometimes it means fixing a process. Sometimes I ask one question and accidentally find five more.",
     "about.p4": "A few years into working, I got curious about data and wanted to learn more, so I went back to university and studied Data Science at Universiteit Leiden. These days, I still very much enjoy being somewhere between people and technology. I love understanding the problem before jumping into the solution, and I care about building things that actually make people's work a little easier.",
     "about.photoSoon": "Photo coming soon",
+    "about.readMore": "Read more",
+    "about.readLess": "Read less",
 
     "experience.heading": "Experience",
 
@@ -70,7 +72,7 @@ const I18N = {
 
     "exp.cimbniaga.dates": "Oct 2016 –<br>Dec 2016",
     "exp.cimbniaga.role": "System Analyst",
-    "exp.cimbniaga.orgsub": "· Indonesian banking institution offering retail, commercial and investment banking services",
+    "exp.cimbniaga.orgsub": "· Indonesia's leading public research university",
     "exp.cimbniaga.desc": [
       "Analyzed admission and student information systems, gathered staff feedback, mapped feature flows and designed test cases, and presented recommendations to the Head of IT."
     ],
@@ -80,9 +82,11 @@ const I18N = {
     "edu.leiden.orgsub": "· the Netherlands",
     "edu.leiden.dates": "Sep 2023 – Aug 2025",
     "edu.leiden.detail": "GPA: 7.98 · Thesis: Species Classification Using Deep Learning on Kirganelia Herbarium Images",
+    "edu.leiden.ta": "Teaching Assistant for Advances in Data Mining and Introduction to Deep Learning.",
     "edu.ui.degree": "Bachelor of Computer Science",
     "edu.ui.orgsub": "· Indonesia",
     "edu.ui.dates": "Sep 2012 – Aug 2016",
+    "edu.ui.ta": "Teaching Assistant for Human-Computer Interaction.",
 
     "work.heading": "Projects",
     "proj.seeall": "See all projects",
@@ -119,7 +123,7 @@ const I18N = {
     "contact.email": "Email",
     "contact.photoSoon": "Photo coming soon",
 
-    "footer.text": "Designed & built by Chiesa, in Den Haag."
+    "footer.text": "Designed & built by Chiesa."
   },
 
   nl: {
@@ -131,7 +135,7 @@ const I18N = {
     "nav.contact": "Contact",
 
     "hero.greeting": "Hi there, hallo! 👋",
-    "hero.role": "Data Engineer | Implementation Engineer | Product Owner",
+    "hero.roleList": ["Data Engineer", "Implementation Engineer", "Product Owner"],
     "hero.lede": "Ik heb gewerkt als business analist, product owner, implementation engineer en nu data engineer, en de vraag die me overal volgt blijft hetzelfde: is dit het probleem dat het daadwerkelijk waard is om op te lossen?",
     "hero.cta": "Neem contact op",
 
@@ -141,6 +145,8 @@ const I18N = {
     "about.p3": "Na een paar jaar begon ik het studentenleven te missen. Ik was hongerig om iets nieuws te leren en dieper op de technische kant in te gaan, dus pakte ik mijn koffers en ging terug naar school voor een MSc in Data Science aan de Universiteit Leiden.",
     "about.p4": "Als er één rode draad door dit alles loopt, is het dat ik oprecht nieuwsgierig ben naar het probleem achter de vraag, niet alleen naar het middel om het op te lossen. Daarom hecht ik niet aan een functietitel: data engineer, implementation engineer, product owner, business analist, zolang ik maar dingen kan blijven bouwen en begrijpen waarom ze ertoe doen.",
     "about.photoSoon": "Foto volgt binnenkort",
+    "about.readMore": "Lees meer",
+    "about.readLess": "Lees minder",
 
     "experience.heading": "Ervaring",
 
@@ -189,7 +195,7 @@ const I18N = {
 
     "exp.cimbniaga.dates": "Okt 2016 –<br>Dec 2016",
     "exp.cimbniaga.role": "Systeemanalist",
-    "exp.cimbniaga.orgsub": "· Indonesische bankinstelling met retail-, zakelijke en investment banking diensten",
+    "exp.cimbniaga.orgsub": "· Toonaangevende openbare onderzoeksuniversiteit van Indonesië",
     "exp.cimbniaga.desc": [
       "Analyseerde toelatings- en studenteninformatiesystemen, verzamelde feedback van medewerkers, bracht functiestromen in kaart en ontwierp testcases, en presenteerde aanbevelingen aan het Hoofd IT."
     ],
@@ -199,8 +205,10 @@ const I18N = {
     "edu.leiden.orgsub": "· Nederland",
     "edu.leiden.dates": "Sep 2023 – Aug 2025",
     "edu.leiden.detail": "GPA: 7,98 · Scriptie: Species Classification Using Deep Learning on Kirganelia Herbarium Images",
+    "edu.leiden.ta": "Werkte als Teaching Assistant voor Advances in Data Mining en Introduction to Deep Learning.",
     "edu.ui.degree": "Bachelor Computer Science",
     "edu.ui.orgsub": "· Indonesië",
+    "edu.ui.ta": "Werkte als Teaching Assistant voor Human-Computer Interaction.",
     "edu.ui.dates": "Sep 2012 – Aug 2016",
 
     "work.heading": "Projecten",
@@ -239,6 +247,6 @@ const I18N = {
     "contact.email": "E-mail",
     "contact.photoSoon": "Foto volgt binnenkort",
 
-    "footer.text": "Ontworpen & gebouwd door Chiesa, in Den Haag."
+    "footer.text": "Ontworpen & gebouwd door Chiesa."
   }
 };
