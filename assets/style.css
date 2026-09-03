@@ -427,7 +427,23 @@ h1, h2, h3 {
   box-shadow: 0 0 0 3px var(--paper);
 }
 
-.timeline-when { padding-top: 0.2rem; }
+.timeline-when {
+  padding-top: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.timeline-logo {
+  width: 100%;
+  max-width: 84px;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  border-radius: 14px;
+  background: var(--paper);
+  border: 1px dashed var(--rule);
+  padding: 10px;
+}
 
 .timeline-dates {
   font-family: var(--mono);
@@ -449,21 +465,17 @@ h1, h2, h3 {
   font-size: 0.95rem;
   font-weight: 600;
   color: var(--plum);
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  flex-wrap: wrap;
 }
 
-.org-logo {
-  width: 24px;
-  height: 24px;
-  object-fit: contain;
-  border-radius: 6px;
-  background: var(--paper);
-  border: 1px solid var(--rule);
-  padding: 2px;
-  flex-shrink: 0;
+@media (max-width: 640px) {
+  .timeline-when {
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+  }
+  .timeline-logo {
+    max-width: 56px;
+  }
 }
 
 .org-link {
