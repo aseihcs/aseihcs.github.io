@@ -85,7 +85,6 @@ const I18N = {
     "edu.ui.dates": "Sep 2012 – Aug 2016",
 
     "work.heading": "Projects",
-    "work.intro": "Three things I'm building or have built. Write-ups are on the way, but here's what each one is for now.",
     "proj.seeall": "See all projects",
 
     "projects.page.title": "All projects",
