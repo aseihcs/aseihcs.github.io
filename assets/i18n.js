@@ -87,8 +87,7 @@ const I18N = {
     "work.heading": "Projects",
     "proj.seeall": "See all projects",
 
-    "projects.page.title": "All projects",
-    "projects.page.intro": "Everything I'm building or have built, in one place. More is on the way, this list will keep growing.",
+    "projects.page.title": "Projects",
     "projects.back": "← Back to home",
 
     "proj.indsponsors.tag": "Live product",
@@ -100,7 +99,7 @@ const I18N = {
     "proj.thesis.title": "Species Classification from Herbarium Images",
     "proj.thesis.desc": "A deep learning pipeline built with Naturalis Biodiversity Center to classify morphologically similar Kirganelia species from over 12,000 digitised herbarium specimens.",
 
-    "proj.dsip.tag": "MSc Project",
+    "proj.dsip.tag": "MSC PROJECT",
     "proj.readcase": "View project →",
     "proj.dsip.title": "Human Trafficking Data: A FAIR Knowledge Graph",
     "proj.dsip.desc": "Cleaning and structuring real human trafficking interview data into a FAIR-compliant RDF knowledge graph, using an ontology, AllegroGraph, and SPARQL.",
@@ -212,8 +211,7 @@ const I18N = {
     "work.intro": "Drie dingen die ik bouw of heb gebouwd. Uitgebreide case studies volgen, maar dit is voor nu wat elk project is.",
     "proj.seeall": "Bekijk alle projecten",
 
-    "projects.page.title": "Alle projecten",
-    "projects.page.intro": "Alles wat ik bouw of heb gebouwd, op een plek. Er komt meer aan, deze lijst blijft groeien.",
+    "projects.page.title": "Projecten",
     "projects.back": "← Terug naar home",
 
     "proj.indsponsors.tag": "Live product",
@@ -225,7 +223,7 @@ const I18N = {
     "proj.thesis.title": "Soortclassificatie op basis van Herbariumbeelden",
     "proj.thesis.desc": "Een deep learning pipeline gebouwd met Naturalis Biodiversity Center om morfologisch vergelijkbare Kirganelia-soorten te classificeren op basis van meer dan 12.000 gedigitaliseerde herbariumspecimens.",
 
-    "proj.dsip.tag": "MSc-project",
+    "proj.dsip.tag": "MSC-PROJECT",
     "proj.readcase": "Bekijk project →",
     "proj.dsip.title": "Mensenhandel Data: Een FAIR Knowledge Graph",
     "proj.dsip.desc": "Echte interviewdata over mensenhandel opschonen en structureren tot een FAIR-compliant RDF knowledge graph, met een ontologie, AllegroGraph en SPARQL.",
