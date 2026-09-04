@@ -842,6 +842,101 @@ h1, h2, h3 {
   }
 }
 
+/* -------------------- case study (dsip.html) -------------------- */
+
+.case-study {
+  padding-top: clamp(72px, 12vw, 120px);
+}
+
+.case-hero {
+  text-align: center;
+  max-width: 68ch;
+  margin: 0 auto 3rem;
+}
+
+.case-eyebrow {
+  font-family: var(--mono);
+  font-size: 0.76rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--marigold-deep);
+  margin: 0 0 1rem;
+}
+
+.case-title {
+  font-size: clamp(1.7rem, 3.6vw, 2.5rem);
+  color: var(--plum);
+  margin-bottom: 1.2rem;
+}
+
+.case-intro {
+  color: var(--ink-soft);
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+.case-body {
+  max-width: 68ch;
+  margin: 0 auto;
+}
+
+.case-body h2 {
+  text-align: center;
+  font-size: clamp(1.25rem, 2.2vw, 1.5rem);
+  color: var(--plum);
+  margin: 2.6rem 0 1.2rem;
+}
+
+.case-body h2:first-child {
+  margin-top: 0;
+}
+
+.case-body p {
+  color: var(--ink-soft);
+  margin: 0 0 1.2rem;
+}
+
+.case-body p:last-child {
+  margin-bottom: 0;
+}
+
+.case-tools {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.case-figure {
+  margin: 2.4rem auto;
+  text-align: center;
+}
+
+.case-figure img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 14px;
+  border: 2px dashed var(--marigold);
+  padding: 8px;
+  background: var(--lavender-dim);
+}
+
+.case-figure figcaption {
+  margin-top: 0.8rem;
+  font-family: var(--mono);
+  font-size: 0.76rem;
+  color: var(--ink-soft);
+}
+
+.case-footer-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  margin-top: 3.2rem;
+}
+
 /* -------------------- skills -------------------- */
 
 .skills-grid {
