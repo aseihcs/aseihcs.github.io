@@ -13,7 +13,7 @@ const I18N = {
 
     "hero.greeting": "Hi there, hallo! 👋",
     "hero.roleList": ["Data Engineer", "Solutions Engineer", "Product Owner"],
-    "hero.lede": "I'm a product and data person who has always been a little too curious about how things work behind the scenes. My experience goes from product delivery and software implementation to AI and data engineering, and I still like moving between the big picture and the details. Give me a problem and I'll probably start by asking why.",
+    "hero.lede": "I'm a product and data person who has always been a little too curious about how things work behind the scenes. My experience goes from product delivery and software implementation to AI and data engineering, and I like moving between the big picture and the details. Give me a problem and I'll probably start by asking why.",
     "hero.cta": "Let's connect",
 
     "about.heading": "About",
