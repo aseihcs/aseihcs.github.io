@@ -100,9 +100,8 @@ const I18N = {
     "proj.thesis.title": "Species Classification from Herbarium Images",
     "proj.thesis.desc": "A deep learning pipeline built with Naturalis Biodiversity Center to classify morphologically similar Kirganelia species from over 12,000 digitised herbarium specimens.",
 
-    "proj.dsip.tag": "Final project",
-    "proj.status.live": "Case study",
-    "proj.readcase": "Read case study →",
+    "proj.dsip.tag": "MSc Project",
+    "proj.readcase": "View project →",
     "proj.dsip.title": "Human Trafficking Data: A FAIR Knowledge Graph",
     "proj.dsip.desc": "Cleaning and structuring real human trafficking interview data into a FAIR-compliant RDF knowledge graph, using an ontology, AllegroGraph, and SPARQL.",
 
@@ -226,9 +225,8 @@ const I18N = {
     "proj.thesis.title": "Soortclassificatie op basis van Herbariumbeelden",
     "proj.thesis.desc": "Een deep learning pipeline gebouwd met Naturalis Biodiversity Center om morfologisch vergelijkbare Kirganelia-soorten te classificeren op basis van meer dan 12.000 gedigitaliseerde herbariumspecimens.",
 
-    "proj.dsip.tag": "Afstudeerproject",
-    "proj.status.live": "Case study",
-    "proj.readcase": "Lees de case study →",
+    "proj.dsip.tag": "MSc-project",
+    "proj.readcase": "Bekijk project →",
     "proj.dsip.title": "Mensenhandel Data: Een FAIR Knowledge Graph",
     "proj.dsip.desc": "Echte interviewdata over mensenhandel opschonen en structureren tot een FAIR-compliant RDF knowledge graph, met een ontologie, AllegroGraph en SPARQL.",
 

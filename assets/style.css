@@ -676,8 +676,7 @@ h1, h2, h3 {
 }
 
 .project-card:hover {
-  border-color: var(--marigold);
-  background: var(--marigold-dim);
+  border-color: var(--plum);
   transform: translateY(-3px);
 }
 
@@ -728,6 +727,12 @@ h1, h2, h3 {
   width: fit-content;
 }
 .project-link:hover { text-decoration: underline; }
+
+.project-title-link {
+  color: inherit;
+  text-decoration: none;
+}
+.project-title-link:hover { color: var(--plum); text-decoration: underline; }
 
 @media (max-width: 860px) {
   .project-grid { grid-template-columns: 1fr; }
@@ -851,7 +856,7 @@ h1, h2, h3 {
 .case-hero {
   text-align: center;
   max-width: 68ch;
-  margin: 0 auto 3rem;
+  margin: 0 auto;
 }
 
 .case-eyebrow {
@@ -876,38 +881,55 @@ h1, h2, h3 {
   margin: 0;
 }
 
+.case-divider {
+  width: 90px;
+  height: 0;
+  margin: 2.6rem auto 3rem;
+  border: none;
+  border-top: 3px dashed var(--marigold);
+}
+
 .case-body {
-  max-width: 68ch;
+  max-width: 800px;
   margin: 0 auto;
 }
 
+.case-body h2,
+.case-body p {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .case-body h2 {
-  text-align: center;
+  text-align: left;
   font-size: clamp(1.25rem, 2.2vw, 1.5rem);
   color: var(--plum);
-  margin: 2.6rem 0 1.2rem;
+  padding-top: 2.6rem;
+  margin-top: 0;
+  margin-bottom: 1.2rem;
 }
 
 .case-body h2:first-child {
-  margin-top: 0;
+  padding-top: 0;
 }
 
 .case-body p {
   color: var(--ink-soft);
-  margin: 0 0 1.2rem;
+  margin-bottom: 1.2rem;
 }
 
 .case-body p:last-child {
   margin-bottom: 0;
 }
 
-.case-tools {
+.case-body p.case-tools {
   text-align: center;
   font-size: 0.9rem;
 }
 
 .case-figure {
-  margin: 2.4rem auto;
+  margin: 2.6rem auto;
   text-align: center;
 }
 
