@@ -81,7 +81,7 @@ const I18N = {
     "edu.leiden.degree": "MSc Computer Science: Data Science (WO)",
     "edu.leiden.orgsub": "· the Netherlands",
     "edu.leiden.dates": "Sep 2023 – Aug 2025",
-    "edu.leiden.detail": "GPA: 7.98 · Thesis: Species Classification Using Deep Learning on Kirganelia Herbarium Images",
+    "edu.leiden.detail": "Thesis: Species Classification Using Deep Learning on Kirganelia Herbarium Images",
     "edu.leiden.ta": "Teaching Assistant for Advances in Data Mining and Introduction to Deep Learning.",
     "edu.ui.degree": "Bachelor of Computer Science",
     "edu.ui.orgsub": "· Indonesia",
