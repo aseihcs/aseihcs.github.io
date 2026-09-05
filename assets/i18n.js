@@ -1,5 +1,6 @@
 const I18N = {
   en: {
+    "nav.home": "Home",
     "nav.about": "About",
     "nav.experience": "Experience",
     "nav.education": "Education",
@@ -123,6 +124,7 @@ const I18N = {
   },
 
   nl: {
+    "nav.home": "Home",
     "nav.about": "Over mij",
     "nav.experience": "Ervaring",
     "nav.education": "Opleiding",
