@@ -827,7 +827,7 @@ h1, h2, h3 {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   font-weight: 600;
-  color: var(--plum);
+  color: var(--marigold-deep);
 }
 .project-eyebrow .dot {
   color: var(--rule);
