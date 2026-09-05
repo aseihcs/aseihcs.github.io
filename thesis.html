@@ -73,7 +73,7 @@
       <h2>Background</h2>
       <p>Kirganelia is a small tropical plant genus in the Phyllanthaceae family. It sounds obscure but that is exactly why it makes a good case study. Different species in this genus look almost the same from the outside. The traits that actually separate them are tiny reproductive parts, often smaller than one millimetre, hidden inside the flowers. To check those traits by hand, you usually have to rehydrate and dissect a dried herbarium specimen. That damages a sample that took decades to preserve. A recent phylogenomic study finally gave Kirganelia a reliable species classification, based on DNA evidence instead of just looking at the plant. That gave me a solid ground truth to test something less invasive: can a deep learning model recognise these species just by looking at photos of leaves?</p>
 
-      <figure class="case-figure">
+      <figure class="case-figure case-figure--portrait">
         <img src="assets/img/thesis/specimen-example.jpg" alt="Digitised herbarium specimen of a Kirganelia species, showing dried leaves and branches mounted on a herbarium sheet with labels" loading="lazy">
         <figcaption>A digitised Kirganelia herbarium specimen, the kind of image the model had to learn from.</figcaption>
       </figure>
@@ -83,7 +83,7 @@
 
       <p><strong>Data and preprocessing.</strong> The dataset came from 314 herbarium specimens across 30 Kirganelia species, mostly sourced through Naturalis Biodiversity Center's BioPortal. Each specimen was tied to a species label that had already been validated with DNA evidence, so the ground truth was trustworthy from the start. Raw herbarium sheets are messy though. One sheet can include leaves, flowers and tape all in the same photo, and scan resolution varies a lot too. I built a Python script that combines colour, edge and texture information to automatically detect and crop out just the leaf regions, using a sliding window of 224 by 224 pixels. Only windows with at least 60% leaf coverage were kept, and a manual pass afterwards filtered out any crops that still had things like tape or heavy shadows. That pipeline turned 314 full herbarium sheets into 12,946 clean leaf image crops across 30 species.</p>
 
-      <figure class="case-figure">
+      <figure class="case-figure case-figure--portrait">
         <img src="assets/img/thesis/cropping-pipeline.jpg" alt="Herbarium sheet overlaid with a grid of red, green and yellow boxes marking rejected, valid and selected leaf crops from the automatic cropping script" loading="lazy">
         <figcaption>The automatic cropping script at work. Red boxes are rejected, green pass the leaf coverage threshold, yellow are selected for training.</figcaption>
       </figure>
@@ -106,7 +106,7 @@
       <h2>What Grad-CAM showed</h2>
       <p>The journal version of this work added one extra piece: Grad-CAM, a technique that highlights which part of an image a CNN actually paid attention to when making a prediction. I ran it on close to 300 test images spread across all 30 species. The activation was consistently centred on the leaf tissue itself, even in crops that also included a bit of stem or flower. That is a good sign. It means the model was learning real leaf features instead of picking up shortcuts like mounting paper texture or lighting differences between scans. The one exception showed up again in sp4, where a few misclassified images had activation bleeding into the mounting tape holding the leaves down. That species only had one available specimen, and its leaves happened to be taped down quite heavily, so it is a fairly understandable edge case rather than a sign the whole approach was flawed.</p>
 
-      <figure class="case-figure">
+      <figure class="case-figure case-figure--compact">
         <img src="assets/img/thesis/gradcam-examples.jpg" alt="Grad-CAM visualisations for three Kirganelia leaf crops, each showing the original image, the heatmap, and the overlay, with activation concentrated on the leaf tissue" loading="lazy">
         <figcaption>Grad-CAM heatmaps for three leaf crops. The model's attention (red) consistently lands on the leaf itself.</figcaption>
       </figure>
