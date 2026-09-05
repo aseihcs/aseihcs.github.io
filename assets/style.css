@@ -844,6 +844,7 @@ h1, h2, h3 {
 .project-row-title {
   font-size: clamp(1.35rem, 2.6vw, 1.75rem);
   margin-bottom: 0.7rem;
+  color: var(--plum);
 }
 
 .project-row-desc {
