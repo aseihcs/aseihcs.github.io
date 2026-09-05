@@ -74,7 +74,7 @@
 
       <h2>How the project was structured</h2>
       <p>We split the work into three parts: data extraction, data storage, and data analytics.</p>
-      <p><strong>Data extraction.</strong> The raw Excel interviews got cleaned and standardised using Python and Pandas in Google Colab. One script processed everything into an intermediate file with one entry per interview. A second script merged duplicate entries so each victim ended up with a single, aggregated record. Regex helped clean messier fields like payments and dates, turning things like "$200" or "400 USD" into one consistent number and currency. We also tried locally hosted LLMs to help spot inconsistent spellings and suggest standard terms, mostly for things like nationality and location names, with a person always checking the suggestions before they went in.</p>
+      <p><strong>Data extraction.</strong> The raw Excel interviews got cleaned and standardised using Python. One script processed everything into an intermediate file with one entry per interview. A second script merged duplicate entries so each victim ended up with a single, aggregated record. Regex helped clean messier fields like payments and dates, turning things like "$200" or "400 USD" into one consistent number and currency. We also tried locally hosted LLMs to help spot inconsistent spellings and suggest standard terms, mostly for things like nationality and location names, with a person always checking the suggestions before they went in.</p>
 
       <figure class="case-figure">
         <img src="assets/img/dsip/technical-pipeline.png" alt="Diagram of the three-layer technical pipeline: data retrieving layer, data storing layer, and visualisation and analysis layer" loading="lazy">
@@ -95,7 +95,7 @@
         <figcaption>A Gruff visualisation of two anonymised victim records and their connections.</figcaption>
       </figure>
 
-      <h2>The tools and frameworks, all in one place</h2>
+      <h2>The tools and frameworks</h2>
       <p>Since this is the part people usually skim for, here it all is. Python, Pandas, and Google Colab handled data cleaning and prep. Regex took care of parsing messier fields, and locally hosted LLMs helped suggest standard spellings and terms. OWL and Protégé were used to build and visualise the ontology, with SKOS adding standardised alternative labels. RDF and RDFLib turned everything into triples, stored as Turtle and N-Triples files. AllegroGraph, with its own Python client, served as the graph database. Gruff handled visualisation, and SPARQL handled the actual querying. GitHub was used for code versioning throughout. CEDAR and a LangChain-based RAG pipeline were both explored earlier on but dropped in favour of simpler, more reliable approaches once we saw they would not hold up with our timeline and data.</p>
 
       <h2>Why FAIR mattered here</h2>
@@ -110,7 +110,7 @@
       </figure>
 
       <h2>What I learned</h2>
-      <p>This was my first real hands-on experience with ontologies, RDF and graph databases. It was also a solid crash course. But the bigger lesson was less technical. Working with data that represents real people's suffering makes you realise how much a missing field or a sloppy entry can actually cost. It is not just a messy row anymore, it is someone's experience at risk of being misread or lost entirely.</p>
+      <p>This was my first real hands-on experience with ontologies, RDF and graph databases. But the bigger lesson was less technical. Reading the actual interview transcripts hit harder than I expected. These were not some hypothetical case studies. They were real survivors describing what actually happened to them along the way. Some of those descriptions were hard to read, and cleaning them up gave me chills more than once. It was a reminder that behind every entry was a person who went through something awful and trusted someone enough to talk about it. Working with data that represents what people actually went through makes you realise how much a missing field or a sloppy entry can actually cost. It's not just a messy row anymore, it's someone's experience at risk of being misread or lost entirely.</p>
 
       <p class="case-tools"><em>Tools and frameworks: Python, Pandas, Google Colab, Regex, locally hosted LLMs, OWL, Protégé, SKOS, RDF, RDFLib, Turtle/N-Triples, AllegroGraph, Gruff, SPARQL, GitHub.</em></p>
 
