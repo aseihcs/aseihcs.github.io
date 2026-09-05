@@ -96,7 +96,7 @@ const I18N = {
     "proj.indsponsors.desc": "An automated pipeline that keeps a database of IND-recognised visa sponsors accurate, from monitoring the official register to verifying and updating company records with minimal manual review.",
     "proj.visit": "Visit site ↗",
 
-    "proj.thesis.tag": "MSc Thesis",
+    "proj.thesis.tag": "MSC THESIS",
     "proj.thesis.title": "Species Classification from Herbarium Images",
     "proj.thesis.desc": "A deep learning pipeline built with Naturalis Biodiversity Center to classify morphologically similar Kirganelia species from over 12,000 digitised herbarium specimens.",
 
@@ -221,7 +221,7 @@ const I18N = {
     "proj.indsponsors.desc": "Een geautomatiseerde pipeline die een database van IND-erkende visumsponsors accuraat houdt, van het monitoren van het officiële register tot het verifiëren en bijwerken van bedrijfsrecords met minimale handmatige controle.",
     "proj.visit": "Bezoek website ↗",
 
-    "proj.thesis.tag": "MSc Scriptie",
+    "proj.thesis.tag": "MSC SCRIPTIE",
     "proj.thesis.title": "Soortclassificatie op basis van Herbariumbeelden",
     "proj.thesis.desc": "Een deep learning pipeline gebouwd met Naturalis Biodiversity Center om morfologisch vergelijkbare Kirganelia-soorten te classificeren op basis van meer dan 12.000 gedigitaliseerde herbariumspecimens.",
 
